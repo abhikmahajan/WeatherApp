@@ -1,0 +1,31 @@
+.cityDisplay {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.tempDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 0.5rem;
+}
+
+.humidityDisplay,
+.descDisplay {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 0.5rem;
+}
+
+.weatherEmoji {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 0.5rem;
+}
+
+.errorDisplay {
+    display: none;
+}

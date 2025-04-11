@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-cover bg-center bg-[url(back.jpg)] min-h-screen w-screen overflow-x-hidden">
+  
+  <!-- Header -->
+  <div class="flex justify-center mt-5 text-3xl sm:text-5xl font-semibold drop-shadow-2xl shadow-black text-white">
+    <h1 class="border p-3 bg-gray-700 rounded-md text-center w-11/12 sm:w-auto">
+      What's The Weather?
+    </h1>
+  </div>
+
+  <!-- Form -->
+  <form class="weather flex flex-col sm:flex-row items-center justify-center gap-4 mt-10 px-4">
+    <input
+      type="text"
+      placeholder="Enter City"
+      class="input border border-black rounded p-2.5 px-5 w-full sm:w-72"
+    />
+    <button
+      type="submit"
+      class="border border-black rounded px-5 py-2 bg-blue-100 hover:bg-blue-200 transition"
+    >
+      Get Weather
+    </button>
+  </form>
+
+  <!-- Weather Card -->
+  <div class="flex justify-center mt-10 px-4">
+    <div
+      style="display: none"
+      class="card bg-gradient-to-b from-[hsl(210,100%,75%)] to-[hsl(30,100%,75%)] w-full max-w-md px-6 sm:px-12 pt-10 rounded-2xl shadow-black shadow-2xl text-center"
+    >
+      <h1 class="cityDisplay">Delhi</h1><br />
+      <p class="tempDisplay">37°C</p><br />
+      <p class="humidityDisplay">Humidity: 75%</p>
+      <p class="descDisplay">Clear Skies</p>
+      <p class="weatherEmoji">☀️</p>
+      <p class="errorDisplay mt-2 text-xl font-semibold text-red-700">
+        Error: Please enter a city!
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
