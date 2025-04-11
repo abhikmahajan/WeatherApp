@@ -12,14 +12,12 @@ Users can enter a city name to get real-time weather information like temperatur
 
 ## 🛠️ Tech Stack
 
-- HTML  
+- HTML
+- CSS 
 - TailwindCSS  
 - JavaScript  
-- OpenWeatherMap API *(or your own integration)*
-
-## 📸 Preview
-
-![weather app preview](./screenshot.png)
+- OpenWeatherMap API
+  
 
 ## 📂 How to Use
 
